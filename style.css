@@ -1,0 +1,47 @@
+h1 {
+    font-size: 70px;
+    font-family: 'Courier New';
+    color: #7289da;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Courier New';
+    color: #7289da;
+    text-align: center;
+}
+h3 {
+    font-size: 30px;
+    font-family: 'Courier New';
+    color: #7289da;
+    text-align: center;
+  position: relative;
+  right: 100px;
+  
+}
+h4 {
+    font-size: 30px;
+    font-family: 'Courier New';
+    color: #7289da;
+    text-align: center;
+  position: relative;
+  right: 100px;
+}
+img {
+    float: left;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 150px;
+}
+
+p {
+  font-size: 20px;
+  position: relative;
+  font-family: 'Courier New';
+ color: white;
+  left: 300px;
+}
+body {
+  background-color: black;
+}
