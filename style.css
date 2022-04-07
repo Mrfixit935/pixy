@@ -75,7 +75,16 @@ a:hover {
   transform: scale(1.1, 1.1);
 }
 
-.title:hover > img {
+img {
   cursor: pointer;
-  transform: rotate(360deg);
+  animation: rotation 1.75s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
