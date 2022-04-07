@@ -1,47 +1,81 @@
-h1 {
-    font-size: 70px;
-    font-family: 'Courier New';
-    color: #7289da;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body, html {
+  background: skyblue;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: #333;
+  padding: 16px;
+  font-size: 111%;
 }
+
 h2 {
-    font-size: 30px;
-    font-family: 'Courier New';
-    color: #7289da;
-    text-align: center;
-}
-h3 {
-    font-size: 30px;
-    font-family: 'Courier New';
-    color: #7289da;
-    text-align: center;
-  position: relative;
-  right: 100px;
-  
-}
-h4 {
-    font-size: 30px;
-    font-family: 'Courier New';
-    color: #7289da;
-    text-align: center;
-  position: relative;
-  right: 100px;
-}
-img {
-    float: left;
-    width: 300px;
-    height: 300px;
-    position: relative;
-    bottom: 150px;
+  color: green; /* Keep this */
 }
 
 p {
-  font-size: 20px;
-  position: relative;
-  font-family: 'Courier New';
- color: white;
-  left: 300px;
+  color: white;
 }
-body {
-  background-color: black;
+
+img {
+  float: left;
+  position: relative;
+  transition: 2s;
+}
+
+.menu-bar {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  opacity: 0.8;
+  transition: 0.75s;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.outside {
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+.status {
+  float: left;
+  left: -50%;
+  border: 1px #000;
+  border-radius: 5px;
+  position: relative;
+  transition: 0.3s;
+  background: #808080;
+}
+
+.status:hover {
+  cursor: pointer;
+  background: green;
+  color: #FFF;
+  transform: scale(1.1, 1.1);
+  box-shadow: 0px 8px 16px 0px #aaaaaa;
+}
+
+.title {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  transition: 0.3s;
+}
+
+.title:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.title:hover > img {
+  cursor: pointer;
+  transform: rotate(360deg);
 }
