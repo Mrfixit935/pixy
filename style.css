@@ -87,3 +87,21 @@ img {
     transform: rotate(359deg);
   }
 }
+.btn {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  width: 170px;
+  height: 75px;
+  bottom: 10px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 2px solid white;
+  outline: 0;
+}
+
+.btn:hover {
+background-color: white;
+color: black;
+cursor: pointer;
+}
